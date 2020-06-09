@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<div class="container">
+    <mat-form-field>
+        <mat-label class="fa fa-search"></mat-label>
+        <input matInput [(ngModel)]="searchText" placeholder="Ex. Cake">
+    </mat-form-field>
+
+    <h3 class="h3"></h3>
+    <div class="row">
+        <div *ngFor="let data of renders | filter : searchText">
+            <div class="product-grid6">
+                <div class="product-image6">
+                    <img class="pic-1" [src]="data.fileDownloadUri">
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">{{data.product.name}}</a></h3>
+                </div>
+                <ul class="social">
+                    <li><a [routerLink]="['/productdetail/', data.product.id]" data-tip="Details"><i
+                                class="fa fa-search"></i></a></li>
+                    <li *ngIf="isAuth"><a [routerLink]="['/productupdate/', data.id]" data-tip="Update"><i
+                                class="fa fa-pencil-square-o"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

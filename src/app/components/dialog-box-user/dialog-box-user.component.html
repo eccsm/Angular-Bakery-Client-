@@ -1,0 +1,28 @@
+<div>
+    <h1 mat-dialog-title><strong>{{action}}</strong></h1>
+    <div mat-dialog-content>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" id="signup-form" class="signup-form">
+            <div class="form-group">
+                <label i18n>Role</label>
+                <select value="selectedValue" class="form-control" formControlName="roleId">
+                    <option i18n>Select Role</option>
+                    <option *ngFor="let r of role" [ngValue]="r.id">{{r.name}}
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input  type="checkbox" formControlName="isBlocked"  id="block">
+                <label for="check" i18n> Block</label><br>
+            </div>
+            <div>
+                
+            </div>
+
+        </form>
+    </div>
+
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onSubmit()">{{action}}</button>
+    <button mat-button (click)="closeDialog()" mat-flat-button color="warn" i18n>Cancel</button>
+</div>

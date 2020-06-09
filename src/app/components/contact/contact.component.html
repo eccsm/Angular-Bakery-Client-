@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="bg-info contact4 overflow-hiddedn position-relative">
+  <div class="row no-gutters">
+    <div class="container">
+      <div class="col-lg-6 contact-box mb-4 mb-md-0">
+        <div class="">
+          <h1 class="title font-weight-light text-white mt-2" i18n>Contact Us</h1>
+          <form class="mt-3" [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="form-group mt-2">
+                  <input class="form-control text-white" type="text" formControlName="fullname" placeholder="fullname"
+                    required>
+                  <div *ngIf="submitted && fullname.invalid" class="alert alert-danger">
+
+                    <div *ngIf="fullname.errors.required" i18n>
+                      Fullname is required.
+                    </div>
+                    <div *ngIf="fullname.errors.minlength" i18n>
+                      Fullname must be at least 5 characters long.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group mt-2">
+                  <input class="form-control text-white" type="email" formControlName="email"
+                    placeholder="email address" required ngModel email>
+                  <div *ngIf="submitted && email.invalid" class="alert alert-danger">
+
+                    <div *ngIf="email.errors.required" i18n>
+                      Mail is required.
+                    </div>
+
+                    <div *ngIf="email.errors.email" i18n>
+                      Wrong Mail Format
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group mt-2">
+                  <textarea class="form-control text-white" rows="3" formControlName="message" placeholder="message"
+                    i18n></textarea>
+                  <div *ngIf="message.invalid && submitted" class="alert alert-danger">
+
+                    <div *ngIf="message.errors.required" i18n>
+                      Message is required.
+                    </div>
+                    <div *ngIf="message.errors.minlength" i18n>
+                      Message must be at least 10 characters long.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 d-flex align-items-center mt-2">
+                <button type="submit" class="btn bg-white text-inverse px-3 py-2"><span i18n> Submit</span></button>
+                <span class="ml-auto text-white align-self-center"><i class="icon-phone mr-2"></i><a
+                    class="fa fa-whatsapp" style="text-decoration: none; font-size:48px;color:white"
+                    href="#"></a></span>
+                <span class="ml-auto text-white align-self-center"><i class="icon-phone mr-2"></i><a
+                    class="fa fa-facebook" style="text-decoration: none; font-size:48px;color:white" href="#"
+                    target="_blank"></a></span>
+                <span class="ml-auto text-white align-self-center"><i class="icon-phone mr-2"></i><a
+                    class="fa fa-twitter" style="text-decoration: none; font-size:48px;color:white" href="#"
+                    target="_blank"></a></span>
+                <span class="ml-auto text-white align-self-center"><i class="icon-phone mr-2"></i><a
+                    class="fa fa-instagram" style="text-decoration: none; font-size:48px;color:white" href="#"
+                    target="_blank"></a></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 right-image p-r-0">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d770809.0860158126!2d28.45174621544522!3d41.003964328513874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1591715403224!5m2!1str!2str"
+        width="100%" height="506" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    </div>
+  </div>
+</div>

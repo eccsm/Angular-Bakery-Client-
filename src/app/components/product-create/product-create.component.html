@@ -1,0 +1,64 @@
+<form [formGroup]="ItemForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+    <div class="form-group">
+        <label i18n>Name</label>
+        <input class="form-control" type="text" formControlName="name" required>
+        <div *ngIf="submitted && name.invalid" class="alert alert-danger">
+
+            <div *ngIf="name.errors.required" i18n>
+                Name is required.
+            </div>
+            <div *ngIf="name.errors.minlength" i18n>
+                Name must be at least 4 characters long.
+            </div>
+        </div>
+        <div class="form-group">
+            <label i18n>Description</label>
+            <input class="form-control" type="text" formControlName="description" required>
+            <div *ngIf="submitted && description.invalid" class="alert alert-danger">
+
+                <div *ngIf="description.errors.required" i18n>
+                    Description is required.
+                </div>
+                <div *ngIf="name.errors.minlength" i18n>
+                    Description must be at least 10 characters long.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label i18n>Category</label>
+        <select value="selectedValue" class="form-control" formControlName="categoryId" required>
+            <option i18n>Select Category</option>
+            <option *ngFor="let c of category" [ngValue]="c.id">{{c.name}}
+            </option>
+        </select>
+        <div *ngIf="submitted && categoryId.invalid" class="alert alert-danger">
+
+            <div *ngIf="categoryId.errors.required" i18n>
+                Category is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="container row">
+            <div class="col-md-6">
+                <input type="file" (change)="onFileChanged($event)">
+            </div>
+        </div>
+        <hr />
+        <div class="container row">
+            <div class="col-md-12">
+                <div *ngIf=message>{{message}}</div>
+            </div>
+        </div>
+
+        <div class="container row">
+            <div class="col-md-12">
+                <div *ngIf=retrievedImage>
+                    <img [src]="retrievedImage">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary" i18n>Add Item</button>
+</form>

@@ -1,0 +1,75 @@
+<form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label i18n>Name</label>
+        <input class="form-control" type="text" formControlName="name" required>
+        <div *ngIf="name.invalid && submitted" class="alert alert-danger">
+
+            <div *ngIf="name.errors.required" i18n>
+                Name is required.
+            </div>
+            <div *ngIf="name.errors.minlength" i18n>
+                Name must be at least 4 characters long.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label i18n>Description</label>
+        <input class="form-control" type="text" formControlName="description" required>
+        <div *ngIf="description.invalid && submitted" class="alert alert-danger">
+
+            <div *ngIf="description.errors.required" i18n>
+                Description is required.
+            </div>
+            <div *ngIf="description.errors.minlength" i18n>
+                Description must be at least 10 characters long.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label i18n>Category</label>
+        <select value="selectedValue" class="form-control" formControlName="categoryId" required>
+            <option i18n>Select Category</option>
+            <option *ngFor="let c of category" [ngValue]="c.id">{{c.name}}
+            </option>
+        </select>
+        <div *ngIf="categoryId.invalid && submitted" class="alert alert-danger">
+
+            <div *ngIf="categoryId.errors.required" i18n>
+                Category is required.
+            </div>
+        </div>
+        <div class="form-group">
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label i18n>Image</label>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-6">
+                    <input type="file" (change)="onFileChanged($event)">
+                </div>
+            </div>
+            <div class="col-md-4" style="width: 400px; height: 400px;">
+                <img [src]="image" style="max-width: 100%; max-height: 100%;">
+            </div>
+            <hr />
+            <div class="container row">
+                <div class="col-md-12">
+                    <div *ngIf=message>{{message}}</div>
+                </div>
+            </div>
+
+            <div class="container row">
+                <div class="col-md-12">
+                    <div *ngIf=retrievedImage>
+                        <img [src]="retrievedImage">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <button type="submit" (click)="onSubmit()" class="btn btn-primary" i18n>Update</button>
+    <button type="delete" (click)="removeItem()" class="btn btn-danger" i18n>Delete</button>
+</form>

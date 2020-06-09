@@ -24,11 +24,33 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/alertifyjs/build/alertify.min.js"
+            ]
           },
           "configurations": {
+            "tr": {
+              "aot": true,
+              "outputPath": "dist/tr",
+              "i18nFile": "src/locale/messages.tr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "tr",
+              "i18nMissingTranslation": "error"
+            },
+            "en": {
+              "aot": true,
+              "outputPath": "dist/en",
+              "i18nFile": "src/locale/messages.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -67,6 +89,12 @@
           "configurations": {
             "production": {
               "browserTarget": "client:build:production"
+            },
+            "tr": {
+              "browserTarget": "client:build:tr"
+            },
+            "en": {
+              "browserTarget": "client:build:en"
             }
           }
         },
@@ -119,6 +147,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "client"
 }

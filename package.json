@@ -7,18 +7,33 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "i18n:extract": "ng xi18n --output-path src/locale",
+    "start:tr": "ng serve --configuration=tr",
+    "build-locale:en": "ng build --prod --i18n-locale en --i18n-format xlf --i18n-file src/locale/messages.xlf --output-path=dist/en --baseHref /en/",
+    "build-locale:tr": "ng build --prod --i18n-locale tr --i18n-format xlf --i18n-file src/locale/messages.tr.xlf --output-path=dist/tr --baseHref /tr/",
+    "build-locale": "npm run build-locale:en && npm run build-locale:tr",
+    "start:en": "ng serve --configuration=en"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.3",
+    "@angular/cdk": "^9.2.4",
     "@angular/common": "~9.1.3",
     "@angular/compiler": "~9.1.3",
     "@angular/core": "~9.1.3",
     "@angular/forms": "~9.1.3",
+    "@angular/localize": "^9.1.9",
+    "@angular/material": "^9.2.4",
     "@angular/platform-browser": "~9.1.3",
     "@angular/platform-browser-dynamic": "~9.1.3",
     "@angular/router": "~9.1.3",
+    "@auth0/angular-jwt": "^4.1.2",
+    "@ngx-translate/core": "^12.1.2",
+    "@ngx-translate/http-loader": "^4.0.0",
+    "alertifyjs": "^1.13.1",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -43,5 +58,10 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eccsm/Angular-Bakery-Client-.git"
   }
 }
+

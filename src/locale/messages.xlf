@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="48dfb134cb8d324bb45f2f9f3bd7d7afc49bc3f8" datatype="html">
+        <source>Products</source>
+        <target>Products</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5cb0ff1e683982f8e81eca4075bd585a44439d4d" datatype="html">
+        <source>Add Product</source>
+        <target>Add Product</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04201f9d27abd7d6f58a4328ab98063ce1072006" datatype="html">
+        <source>Categories</source>
+        <target>Categories</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d13a9cd5ed3dcee0eab22cb25198d43886942be" datatype="html">
+        <source>Users</source>
+        <target>Users</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
+        <source>Login</source>
+        <target>Login</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="994363f08f9fbfa3b3994ff7b35c6904fdff18d8" datatype="html">
+        <source>Profile</source>
+        <target>Profile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
+        <source>Logout</source>
+        <target>Logout</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90e79a0c18b819ac7d175a9b0a8236ad68ed7ee5" datatype="html">
+        <source>Sure to delete <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{local_data.name}}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>?</source>
+        <target>Sure to delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog-box/dialog-box.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7b35c384aecd25a516200d6921836374613dfe7" datatype="html">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog-box/dialog-box.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog-box-user/dialog-box-user.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ca707824ab93066c7d9b44e1b8bf216725c2c22" datatype="html">
+        <source>Filter</source>
+        <target>Filter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/category/category.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f6755cff4957d5c3c89bafce5651f1b6fa2b1fd9" datatype="html">
+        <source>Add</source>
+        <target>Add</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/category/category.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20371277706eedf7fd8a3f51633ca5d801cd4fc2" datatype="html">
+        <source> Name </source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/category/category.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01a32bb7e93373cbc305329319efc67c0bd85226" datatype="html">
+        <source> Action </source>
+        <target>Action</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/category/category.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/user/user.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html">
+        <source>Edit</source>
+        <target>Edit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/category/category.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/user/user.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+        <target>Delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/category/category.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c60af263707aab917de4aee5d85a973ed05b8dfc" datatype="html">
+        <source>Related Products</source>
+        <target>Related Products</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-detail/product-detail.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4f065712a3d84e135f47bdfe1b5fbeccabfbef8" datatype="html">
+        <source>Name is required.</source>
+        <target>Name is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89903fd177a4169587c0d3a3ca6892fc94bdb5f6" datatype="html">
+        <source>Name must be at least 4 characters long.</source>
+        <target>Name must be at least 4 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target>Description</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0d3c0288e89cc4d1d5f06d7e200b3cb4bbe198af" datatype="html">
+        <source>Description is required.</source>
+        <target>Description is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f111523d964694bfb12e8138bffa387f28001c4" datatype="html">
+        <source>Description must be at least 10 characters long.</source>
+        <target>Description must be at least 10 characters long</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="607de17c2a755f65775881c19e276e7c933bcf94" datatype="html">
+        <source>Category</source>
+        <target>Category</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="041602754993036010c4c84909e880c21571d9fb" datatype="html">
+        <source>Select Category</source>
+        <target>Select Category</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="279342f8868ceedb6f942d3515687f842516abcc" datatype="html">
+        <source>Category is required.</source>
+        <target>Category is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc938d465f761f12e8d75844317730a95d914018" datatype="html">
+        <source>Add Item</source>
+        <target>Add Item</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-create/product-create.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8f48223683fe4171b7f3561b0a0dd3ce6280002" datatype="html">
+        <source>Description is required.</source>
+        <target>Description is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b525ddeb0e94b89a72733b80b93466973cb1c64" datatype="html">
+        <source>Description must be at least 10 characters long.</source>
+        <target>Description must be at least 10 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5f9ba9bb9faa8284bcadb1cdbc6aaf969e9c4bb" datatype="html">
+        <source>Image</source>
+        <target>Image</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="047f50bc5b5d17b5bec0196355953e1a5c590ddb" datatype="html">
+        <source>Update</source>
+        <target>Update</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/product-update/product-update.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b35781212cc2eb0b3b7abeef332b8c2602bd09e2" datatype="html">
+        <source>Username is required.</source>
+        <target>Username is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8cb2e4ea90940d83ec79ea4a54c1666a78bb6bf1" datatype="html">
+        <source>Username must be at least 4 characters long.</source>
+        <target>Username must be at least 4 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46049ec654895668a8a670eb549297c41f46877f" datatype="html">
+        <source>Password is required.</source>
+        <target>Password is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d528d81243448524f3e1de53c8b67e41aa7639f" datatype="html">
+        <source>Forgot Password</source>
+        <target>Forgot Password</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="638a2a31d95c6da64b908dd6a67ef383692ac545" datatype="html">
+        <source>Don&apos;t you have an account ? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Register<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Don&apos;t you have an account ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79fab0cfec1f5f5d8e52476a2fe3cb69da0f4335" datatype="html">
+        <source>Create account</source>
+        <target>Create account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="832e98a00262cfab52e10f85ba7e7321cea3ecb2" datatype="html">
+        <source>Username must be at least 5 characters long.</source>
+        <target>Username must be at least 5 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="291c3fa16c61bac69834825e865bd66083ef4e57" datatype="html">
+        <source>Fullname is required.</source>
+        <target>Fullname is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f990a0f2389c67c90a209da050cbfa44149d25d" datatype="html">
+        <source>Fullname must be at least 5 characters long.</source>
+        <target>Fullname must be at least 5 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52798a28dcf2c745e50a257caa0378c41401251f" datatype="html">
+        <source>Mail is required.</source>
+        <target>Mail is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="646d8a644b9de977df0a2fa2923fc1a1d519cead" datatype="html">
+        <source>Wrong Mail Format</source>
+        <target>Wrong Mail Format</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e857715eb1c0780aee752c1de0c18564bf5cff8" datatype="html">
+        <source>Password must be at least 6 characters long.</source>
+        <target>Password must be at least 6 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3af2a7631965824a9fec2af8b0be763470b7ac5" datatype="html">
+        <source>Password Confirmation is required.</source>
+        <target>Password Confirmation is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94a7d0bb869c6641510ab7469774343a19d13ee6" datatype="html">
+        <source>Passwords must match</source>
+        <target>Passwords must match</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="15a394bdede30d2842100fe0d69a788e9ed61d5b" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Register</source>
+        <target>Register</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ad696b65a0ee4f879311dc9b30b9314953c2a975" datatype="html">
+        <source>Login here</source>
+        <target>Login here</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/register/register.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c36a66f2107e8da5371ebc9d15c2008dff567f46" datatype="html">
+        <source>Role</source>
+        <target>Role</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog-box-user/dialog-box-user.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbbe6df6f6eb4e4d720eeb4e7b57e7ec15e2a159" datatype="html">
+        <source>Select Role</source>
+        <target>Select Role</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog-box-user/dialog-box-user.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae789e2e1c71d30d142e163720acfe610cc3ba72" datatype="html">
+        <source>Block</source>
+        <target>Block</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dialog-box-user/dialog-box-user.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fec8de042d9645af8886e515b9c4e6334d4ab2c8" datatype="html">
+        <source>Username </source>
+        <target>Username</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/user/user.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ff487941e88d6b4cf15fd208acb9bfc822722ea" datatype="html">
+        <source>Fullname </source>
+        <target>Fullname</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/user/user.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30af7c9577bdbfdbdcad99c131cfbf1be8402ec0" datatype="html">
+        <source>Mail </source>
+        <target>Mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/user/user.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <target>Contact Us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="749bc13acb66ad8836f70e7b1cfec39798245bf9" datatype="html">
+        <source>Fullname is required.</source>
+        <target>Fullname is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f3d229e52782431bc9f70015789c1c4b31ff456" datatype="html">
+        <source>Fullname must be at least 5 characters long.</source>
+        <target>Fullname must be at least 5 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a7256ffb229eba4be6a633b8cd50cec4526f55a2" datatype="html">
+        <source>Mail is required.</source>
+        <target>Mail is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33c0a8ad3cd68eb07a18bd10870f473675db7758" datatype="html">
+        <source>Wrong Mail Format</source>
+        <target>Wrong Mail Format</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17d0032ec43b558605be9503ab4b1d096257fb79" datatype="html">
+        <source>Message is required.</source>
+        <target>Message is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78b868ca0663b677699a3810f14513394e95b2b4" datatype="html">
+        <source>Message must be at least 10 characters long.</source>
+        <target>Message must be at least 10 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52da5bcdc17f639348911bb7cf458b8eca3c7154" datatype="html">
+        <source>Submit</source>
+        <target>Submit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce458d56dcb78354f734cfc0c46fe21a17403354" datatype="html">
+        <source>Username is required.</source>
+        <target>Username is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="43af01f45e2e872a8f385bbe388585d3dd4ff7d3" datatype="html">
+        <source>Username doesn&apos;t exist.</source>
+        <target>Username doesn&apos;t exist.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0bd437320421330491e8d8dfebfcce7a1797a291" datatype="html">
+        <source>Submit</source>
+        <target>Submit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b147db4870b7e5998ccf44f42ecb38efe14110cb" datatype="html">
+        <source>Password is required.</source>
+        <target>Password is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="498639adbae0724938a9603808f7ad163acc5e75" datatype="html">
+        <source>Password must be at least 6 characters long.</source>
+        <target>Password must be at least 6 characters long.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ee11816e1759cd399ae233d3b6b47fa221f623b" datatype="html">
+        <source>Password Confirmation is required.</source>
+        <target>Password Confirmation is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2cad2be8221a0f1c53abe296957e90deab28bb95" datatype="html">
+        <source>Passwords must match</source>
+        <target>Passwords must match</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
